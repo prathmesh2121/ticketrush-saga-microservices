@@ -1,5 +1,6 @@
-package com.ticketrush.inventory_service;
+package com.ticketrush.inventory_service.entity;
 
+import com.ticketrush.inventory_service.Enum.SeatId;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

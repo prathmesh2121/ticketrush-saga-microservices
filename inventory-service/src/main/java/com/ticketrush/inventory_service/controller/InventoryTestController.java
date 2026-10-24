@@ -8,10 +8,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
-@Controller
+@RestController
 @RequestMapping("/inventory")
 public class InventoryTestController
 {
@@ -33,7 +34,7 @@ public class InventoryTestController
     @PostMapping("/release")
     public Map<String,Boolean> release(@RequestBody SeatRequest r)
     {
-        return Map.of("Released : ",service.release(r.eventId(), r.seatNo(), r.bookingId()));
+        return Map.of("Released",service.release(r.eventId(), r.seatNo(), r.bookingId()));
     }
 
 

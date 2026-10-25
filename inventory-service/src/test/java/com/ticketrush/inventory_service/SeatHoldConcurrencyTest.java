@@ -1,4 +1,5 @@
 package com.ticketrush.inventory_service;
+import com.ticketrush.inventory_service.Enum.HoldResult;
 import com.ticketrush.inventory_service.service.SeatHoldService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

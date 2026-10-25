@@ -1,4 +1,4 @@
-package com.ticketrush.inventory_service.Enum;
+package com.ticketrush.inventory_service.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

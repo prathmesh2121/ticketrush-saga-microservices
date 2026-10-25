@@ -16,7 +16,7 @@ public class MessageSender {
         this.kafka = kafka;
         this.mapper = mapper;
     }
-    
+
     public void send(String topic , Message message)
     {
 

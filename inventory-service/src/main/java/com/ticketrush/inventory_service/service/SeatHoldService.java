@@ -1,7 +1,7 @@
 package com.ticketrush.inventory_service.service;
 
-import com.ticketrush.inventory_service.Enum.SeatId;
-import com.ticketrush.inventory_service.HoldResult;
+import com.ticketrush.inventory_service.entity.SeatId;
+import com.ticketrush.inventory_service.Enum.HoldResult;
 import com.ticketrush.inventory_service.Repository.SeatInventoryRepository;
 import com.ticketrush.inventory_service.entity.SeatInventory;
 import org.springframework.data.redis.core.StringRedisTemplate;
